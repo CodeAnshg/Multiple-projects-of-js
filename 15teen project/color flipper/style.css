@@ -1,0 +1,46 @@
+.nav_bar{
+    display: flex;
+    background-color: rgb(248, 244, 244);
+    justify-content: space-around;
+    color: rgb(104, 175, 175);
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+ul{
+    display: flex;
+    gap: 30px;
+}
+li a{
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+}
+.container h2{
+    background-color: black;
+    color: white;
+    padding: 5% 15% 5% 15%;
+    width: 18vw;
+    border-radius: 15px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    align-items: center;
+}
+button{
+    background-color: rgb(247, 244, 244);
+    color: rgb(8, 8, 8);
+    height: 5vh;
+    width: 8vw;
+    border-radius: 10px;
+
+}
+:hover button{
+    cursor: pointer;
+}

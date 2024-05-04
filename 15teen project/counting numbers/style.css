@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15vw;
+    height: 90vh;
+}
+body{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    gap: 2vw;
+}
+
+button{
+    border: 2px solid black;
+    height: 4vh;
+    width: 8vw;
+    border-radius: 7px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
